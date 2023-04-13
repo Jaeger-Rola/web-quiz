@@ -176,20 +176,6 @@ function saveScore(event) {
 	displayHighScores();
 }
 
-//// Display high scores on page
-//function displayHighScores() {
-//	// Get high scores from localStorage
-//	var highScores = JSON.parse(localStorage.getItem("highScores"));
-//	
-//	// Create list items for high scores
-//	scoreList.innerHTML = "";
-//	for (var i = 0; i < highScores.length; i++) {
-//		var scoreItem = document.createElement("li");
-//		scoreItem.textContent = highScores[i].initials + " - " + highScores[i].score;
-//		scoreList.appendChild(scoreItem);
-//	}
-//}
-
 // Display high scores on page
 function displayHighScores() {
 	// Get high scores from localStorage
